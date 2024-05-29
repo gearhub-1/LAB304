@@ -1,0 +1,20 @@
+version: '3.8'  # Specify Docker Compose version
+
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jenkins  # Customize container name
+    user: root
+    ports:
+      - 8080:8080   # Map the container port to the host port
+      - 50000:50000 # Used for agent communication
+    volumes:
+      - jenkins_data:/var/jenkins_home # Mount persistent storage
+      - /var/run/docker.sock:/var/run/docker.sock # Enable Docker in Docker (Optional, for building inside containers)
+      - /usr/bin/docker:/usr/bin/docker     
+    restart: always  # Restart the container if it fails
+    
+volumes:
+  jenkins_data:

@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.3896.vca_2c931e7935">
+    <script>pipeline {
+    agent {
+        label &apos;java&apos; // This selects nodes with the &apos;java&apos; label
+    } 
+    stages {
+        stage(&apos;git clone&apos;) {
+            steps {
+                git &apos;https://github.com/gearhub-1/simple-microservice-lab&apos;
+            }
+        }
+        stage(&apos;verify file&apos;) {
+            steps {
+                sh &quot;pwd&quot;
+                sh &quot;ls -al&quot;
+            }
+        }
+        stage(&apos;build docker images&apos;) {
+            steps {
+                script {
+                    def customImage = docker.build(&quot;gearpawarit/frontend:alpha&quot;, &quot;-f ./FrontendApplication/app.dockerfile ./FrontendApplication&quot;)
+                        docker.withRegistry(&apos;https://registry.hub.docker.com&apos;, &apos;gearpawarit-token&apos;) {
+                            customImage.push() 
+                        }
+                }
+            }
+        }
+        stage(&apos;Check Docker Images&apos;) {
+            steps {
+                sh &quot;docker images&quot;
+            }
+        }
+    }
+}
+    
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

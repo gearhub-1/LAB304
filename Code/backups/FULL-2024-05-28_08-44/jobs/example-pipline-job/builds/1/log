@@ -1,0 +1,70 @@
+Started by user unknown or anonymous
+[8mha:////4H5Dobyx94WmHOccSC+ahCjT7R2bolyIOMOX1j+TC4HcAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4OKbC4EQvCmnpXQm68iPrw9vtmfExKRe1Cplnnd4lj87AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DLP5tG967cJCiiQWgXygL658l2aZEMWp4ea1xWCgJsFAAAArx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzNEgYN/eT83ILSktQi/ZT85OzUIlUjF5CpQMoACIwLUpMLsg2NsvUBXP/86N0AAAA=[0mdocker-java-00003pecpk12k on docker-agent in /home/jenkins/workspace/example-pipline-job
+[8mha:////4GSPNi/vbGTrdZiGQJtrrJhFccLjaVrbw9Qwuvr5r+29AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4E9uMqsDb9k496BYlW9Dno5N5jqCUIE2JY5vXIeOo8kJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4OXgcA0kOcLGOz0kvAJU/mrPfOaEsqmzxNP2quOSK7vgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Hello)
+[8mha:////4AQl6AzXBlrjh8XERJP43Qxay3zUDWYoB5QOSRvu6bzlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+Hello World
+[8mha:////4LmcTqFLpxkcYvLLmoj6Ex6eMVUPeAnyRaB0MRpd1ifAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Bli4zTzpr/oDY/UkGoxwhFQw+mfnKlBJ7ctNRZvWZg8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4O7Q6b9CFs99qgMkZnvc8l3LeLtZYATX06c7BYJeSEQcAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4KohDQA/WXCB1Kjdty2w5f1N4GcFPtOlNr9pfJipF193AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Docker hello-world)
+[8mha:////4NTeLebwEfqkvaQYvD27NULLpclz2jAg+a6So2htdtvOAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker run hello-world
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[8mha:////4FGt33u5iVnZR8OP4LZye17Z5bae8VEpYw5jeqXQDhCvAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4FzbrtMiLnwQk66tE2JQdH2jAJSXovmO59T+gpq7ATSTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4HlxRBBJmUvwb0IP5LqBg+BH/cGzfTbPio/5kTBnF3sDAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4Fx+SBbAk+u0aPcZ7YXYH25WliqE7PXGxbN/9FA8CsjlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Check Docker Images)
+[8mha:////4G2E+6n4rufUWjyo2o9xzM7sfjZ8rrLaAwKZHbQ70QF4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ docker images
+REPOSITORY                                      TAG           IMAGE ID       CREATED          SIZE
+jenkins                                         v1            c85358f5fea2   2 minutes ago    830MB
+jenkins                                         lab304        9e255acf5858   33 minutes ago   830MB
+jenkins                                         custom        3d9c6f08eb9a   4 hours ago      825MB
+jenkins/inbound-agent                           latest        a9089e35d8d4   4 days ago       283MB
+gearpawarit/jmeter-test                         v5            81d36546da70   8 days ago       262MB
+gearpawarit/jmeter-test                         latest        da2bdc8480f9   8 days ago       262MB
+gearpawarit/jmeter-test                         v2            da2bdc8480f9   8 days ago       262MB
+<none>                                          <none>        5de06dd182e6   8 days ago       262MB
+<none>                                          <none>        a29ac03c11e6   8 days ago       262MB
+efk-fluentd                                     latest        55360fc8a987   11 days ago      50.8MB
+efk-docker-compose-demo-fluentd                 latest        0ac1032c47f9   11 days ago      50.8MB
+fluentd                                         test          0e273e6b0fd5   11 days ago      50.8MB
+openjdk                                         23-jdk-slim   1afd352aaeef   11 days ago      441MB
+fluent/fluentd                                  v1.17-1       870e67c219c0   2 weeks ago      46.3MB
+nginx                                           alpine        501d84f5d064   3 weeks ago      48.3MB
+nginx                                           latest        e784f4560448   3 weeks ago      188MB
+alpine                                          latest        05455a08881e   4 months ago     7.38MB
+docker.elastic.co/elasticsearch/elasticsearch   8.9.0         281908e9f34e   10 months ago    1.34GB
+docker.elastic.co/kibana/kibana                 8.9.0         b3f165bc5f9b   10 months ago    886MB
+hello-world                                     latest        d2c94e258dcb   13 months ago    13.3kB
+[8mha:////4DvDFlA9H8344Bbj6Zm1QXpXTGMErt1tFnCMYYEEwy6PAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4HSjSePU+4ZCeGmtrQvt5mZS35FumLDghPJQ3evv1lo2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DABt+5X8nvuPYU8eWDZ0BmwFE3CDINNibtbQEGUbxQrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4EZxi3ilBU969uCelGAQ5Xmp7FSjVBFufuJg5HMqzqjvAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4H4LdwFug1PuRfRdvlsfxI3x/VXPM4mJ48oIZ/yKVqxkAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
