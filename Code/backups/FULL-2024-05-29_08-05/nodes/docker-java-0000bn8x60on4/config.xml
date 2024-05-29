@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.docker.DockerTransientNode plugin="docker-plugin@1.6.1">
+  <name>docker-java-0000bn8x60on4</name>
+  <description>Docker Agent [jenkins/inbound-agent on unix:///var/run/docker.sock ID db5e839d82d7ee90253173d194a5e28d95b10ffc74b72c6ed927cf51b8befd2a]</description>
+  <remoteFS>/home/jenkins</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="com.nirima.jenkins.plugins.docker.strategy.DockerOnceRetentionStrategy">
+    <idleMinutes>10</idleMinutes>
+  </retentionStrategy>
+  <launcher class="io.jenkins.docker.connector.DockerDelegatingComputerLauncher">
+    <launcher class="io.jenkins.docker.connector.DockerComputerAttachConnector$DockerAttachLauncher">
+      <api>
+        <dockerHost plugin="docker-commons@439.va_3cb_0a_6a_fb_29">
+          <uri>unix:///var/run/docker.sock</uri>
+        </dockerHost>
+        <connectTimeout>60</connectTimeout>
+        <readTimeout>60</readTimeout>
+      </api>
+      <containerId>db5e839d82d7ee90253173d194a5e28d95b10ffc74b72c6ed927cf51b8befd2a</containerId>
+      <remoteFs>/home/jenkins</remoteFs>
+      <jvmArgsOrEmpty></jvmArgsOrEmpty>
+      <entryPointCmdOrEmpty></entryPointCmdOrEmpty>
+    </launcher>
+    <api reference="../launcher/api"/>
+    <containerId>db5e839d82d7ee90253173d194a5e28d95b10ffc74b72c6ed927cf51b8befd2a</containerId>
+  </launcher>
+  <label>java</label>
+  <nodeProperties/>
+  <containerId>db5e839d82d7ee90253173d194a5e28d95b10ffc74b72c6ed927cf51b8befd2a</containerId>
+  <removeVolumes>false</removeVolumes>
+  <stopTimeout>10</stopTimeout>
+  <cloudId>docker-agent</cloudId>
+  <provisioningId plugin="cloud-stats@336.v788e4055508b_">
+    <cloudName>docker-agent</cloudName>
+    <templateName>docker-java (jenkins/inbound-agent)</templateName>
+    <nodeName>docker-java-0000bn8x60on4</nodeName>
+    <fingerprint>-1493780356</fingerprint>
+  </provisioningId>
+  <acceptingTasks>true</acceptingTasks>
+</io.jenkins.docker.DockerTransientNode>

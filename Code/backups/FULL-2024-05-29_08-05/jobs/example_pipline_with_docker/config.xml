@@ -11,25 +11,38 @@
   </actions>
   <description></description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>7</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
+      <abortPrevious>true</abortPrevious>
+    </org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.DisableResumeJobProperty/>
+  </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.3896.vca_2c931e7935">
     <script>pipeline {
     agent {
         label &apos;java&apos; // This selects nodes with the &apos;java&apos; label
     } 
     stages {
-        stage(&apos;git clone&apos;) {
+        stage(&apos;Git Clone&apos;) {
             steps {
                 git &apos;https://github.com/gearhub-1/simple-microservice-lab&apos;
             }
         }
-        stage(&apos;verify file&apos;) {
+        stage(&apos;Verify Workspace&apos;) {
             steps {
                 sh &quot;pwd&quot;
                 sh &quot;ls -al&quot;
             }
         }
-        stage(&apos;build docker images&apos;) {
+        stage(&apos;Build &amp; Push Image&apos;) {
             steps {
                 script {
                     def customImage = docker.build(&quot;gearpawarit/frontend:alpha&quot;, &quot;-f ./FrontendApplication/app.dockerfile ./FrontendApplication&quot;)

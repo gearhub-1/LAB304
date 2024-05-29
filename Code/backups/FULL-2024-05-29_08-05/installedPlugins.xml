@@ -174,12 +174,12 @@
       <string>439.va_3cb_0a_6a_fb_29</string>
     </entry>
     <entry>
-      <string>pam-auth</string>
-      <string>1.10</string>
-    </entry>
-    <entry>
       <string>javadoc</string>
       <string>243.vb_b_503b_b_45537</string>
+    </entry>
+    <entry>
+      <string>pam-auth</string>
+      <string>1.10</string>
     </entry>
     <entry>
       <string>job-import-plugin</string>
@@ -526,5 +526,5 @@
       <string>3.3.4-86.v39b_a_5ede342c</string>
     </entry>
   </plugins>
-  <pluginsXml>/var/backups/FULL-2024-05-28_08-44/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/var/backups/FULL-2024-05-29_08-05/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>
